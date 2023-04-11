@@ -1,0 +1,27 @@
+header{
+    background-color: black;
+    color:white;
+    margin-top: -25px;
+    
+}
+nav{
+    background-color: black;
+
+}
+.startcontain{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.contain{
+    background-color: blue;
+    width: 150vh;
+    height: 100vh;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 100vh;
+    height: 100vh;
+}

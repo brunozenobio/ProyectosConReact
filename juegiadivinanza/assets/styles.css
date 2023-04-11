@@ -1,0 +1,84 @@
+section{
+    display: flex;
+    flex-direction:row-reverse ;
+}
+.main{
+    
+    background-color: blue;
+    width: 80%;
+    height: 100vh;
+}
+.main h1{
+    text-align: center;
+    font-size: 50px;
+}
+.reglas{
+    text-align: center;
+}
+.contVictorias{
+    text-align: center;
+    font-size: 20px
+    
+    
+}
+.victorias1,.victorias2{
+    margin-bottom: 10px;
+}
+.vicJug1,.vicJug2{
+    background-color: blue;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 20px;
+    color:rgb(20, 202, 20);
+}
+
+.turnoJug1{
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    
+    
+}
+.confNum,.jug1In{
+
+    height: 5vh;
+}
+.confNum,.confNum2{
+    border-radius: 10%;
+    box-shadow: none;
+    background-color: transparent;
+    color: black;
+    margin-left: 5px;
+}
+.confNum:hover{
+
+    background-color: red;
+    transition: 0.3s ease;
+}
+.turnoJug2{
+    
+    display: flex;
+    text-align: center;
+}
+
+.confNum2,.jug2In{
+    margin-top :15px;
+}
+
+.inforGameOver{
+    background-color: rgb(20, 202, 20);
+}
+
+
+
+.inforGameOver p{
+    font-size: 30px;
+    text-align: center;
+}
+.inforGameOver p:hover{
+   color:rgb(13, 217, 224);
+}

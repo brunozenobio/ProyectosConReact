@@ -1,0 +1,120 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.fc-carddarkMode{
+  background-color: rgb(196, 208, 216);
+  width: 50vh;
+  height: 80vh;
+  border-radius:10%;
+}
+.fc-cardlightMode{
+  background-color: rgb(196, 208, 216);
+  width: 50vh;
+  height: 80vh;
+  border-radius:10%;
+}
+.fc-carddarkMode {
+  background-color: rgb(5, 5, 5);
+  border-radius:10%;
+}
+
+.butModedarkMode{
+  margin-top:10px;
+}
+.butModelightMode{
+  margin-top:10px;
+  background-color: aliceblue;
+  color:black;
+}
+.butModedarkMode:hover{
+  margin-top:10px;
+  background-color: white;
+  transition: 0.5s ease;
+  color: black;
+}
+.butModelightMode:hover{
+  background-color: rgb(26, 25, 25);
+  color:white;
+  transition: 0.5s ease;
+  margin-top:10px;
+}
+
+
+.changeMode{
+  display:none;
+}
+.butModedarkMode:hover   .changeMode{
+
+  display: block;
+}
+.butModedarkMode:hover   .darkMode{
+
+  display: none;
+}
+.butModelightMode:hover  .changeMode{
+
+  display: flex;
+}
+.butModelight:hover   .changeMode{
+
+  display: block;
+}
+.butModelightMode:hover   .lightMode{
+
+  display: none;
+}
+
+
+
+.fc-card-press-user{
+  display: flex;
+  flex-direction: column;
+}
+.fc-card-press-img{
+  margin-top: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 30vh;
+  height: 30vh;
+}
+
+.fc-card-press-user strong{
+  color:black;
+  font-size: 25px;
+}
+.fc-card-press-user span{
+  color:black;
+  margin-top:-5px;
+  margin-bottom: 10px;
+}
+
+.fc-card-press-img .darkMode{
+  margin-top: 100px;
+  border: 1px solid rgb(213, 203, 203);
+  border-radius: 50%;
+  width: 30vh;
+  height: 30vh;
+}
+
+.darkMode strong{
+  color:rgb(196, 185, 185);
+  font-size: 25px;
+}
+.darkMode span{
+  color:rgb(182, 172, 172);
+  margin-top:-5px;
+  margin-bottom: 10px;
+}
+
+.darkMode button{
+  background-color: rgb(255, 255, 255);
+  
+}
+.darkMode button span{
+ color:black;
+  
+}

@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.new-task{
+  display: flex;
+  justify-content: space-around;  
+  margin-bottom: 20px;
+}
+.new-task-input{
+  margin-right: 150px;
+  width: 30vh;
+}
+.new-task-button{
+  margin-left: 0;
+}
+
+
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+.task-span{
+  width: 20vh;
+  text-align: justify;
+}
+.task-deleted{
+  display: none;
+}
+
+.task-complete{
+  color: green;
+}
+
+.task-completed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+
+}
+
+.task-delete{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
